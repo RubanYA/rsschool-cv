@@ -1,131 +1,193 @@
 body {
   position: relative;
+
   width: 1350px;
   margin: auto;
 }
 
 .block1 {
-  background: #c4ac93;
-  padding: 10px;
-  color: #fff;
-  font-family: Arial, sans-serif;
+  /* Позиционирование */
   position: absolute;
-  width: 300px;
   left: 55px;
   top: 5px;
+
+  /* Блочная модель */
+  width: 300px;
+  padding: 10px;
+
+  /* Типографика*/
+  color: #fff;
+  font-family: Arial, sans-serif;
+
+  /* Оформление */
+  background: #c4ac93;
   border: 5px solid #ffec44; /* Параметры рамки */
   border-radius: 24% 55% 45% 76% / 54% 46% 47% 53%;
 }
+
 .block1 h1 {
-  color: #feea3b;
-  overflow: hidden;
-  font-weight: normal;
-  margin-top: 1px;
+  /* Позиционирование */
   text-align: center;
+
+  /* Блочная модель */
+  margin-top: 1px;
+
+  /* Типографика*/
+  color: #feea3b;
+  font-weight: normal;
 }
+
 .banner {
+  /* Позиционирование */
   background-image: url("../img/background.jpg");
   background-position: center center;
   background-size: auto;
+
   padding-top: 300px;
   padding-bottom: 400px;
+
   color: rgb(24, 53, 22);
 }
 
-.photo {
-  width: 180px;
+figure {
+  /* Позиционирование */
   position: absolute;
-  left: 50px;
   top: 100px;
-  background: #ce8d6f; /* Цвет фона */
-  color: rgb(238, 216, 17); /* Цвет текста */
+  left: 40px;
+
+  /* Блочная модель */
+  width: 180px;
   padding: 5px; /* Поля в блоке */
+
+  /* Типографика */
+  color: rgb(238, 216, 17); /* Цвет текста */
   text-align: center; /* Выравниваем по центру */
+
+  /* Оформление */
+  background: #ce8d6f; /* Цвет фона */
   border: 5px solid #ffec44; /* Параметры рамки */
   border-radius: 54% 46% 47% 53% / 24% 55% 45% 76%;
 }
-.photo img {
+
+figure img {
   width: 80%;
   height: 80%;
+
   border-radius: 58%;
 }
 
-.content h2 {
+main h2 {
+  /* Позиционирование */
   position: absolute;
-  left: 350px;
   top: 50px;
-  border-radius: 54% 46% 47% 53% / 24% 55% 45% 76%;
-  background: rgb(160, 247, 160); /* Цвет фона */
+  left: 380px;
+
+  /* Блочная модель */
   padding: 40px; /* Поля вокруг текста */
-  border: 3px solid #79c1f5; /* Параметры синей рамки */
-  outline: 3px solid #ebc46e; /* Параметры рамки */
-  outline-offset: -20px; /* Смещение рамки */
+
+  /* Типографика */
   text-align: center;
-  clear: both; /*чтоб убрать наложение на вышерасположенный блок*/
   color: rgb(95, 91, 91);
+
+  /* Оформление */
+  background: rgb(160, 247, 160); /* Цвет фона */
+  border: 3px solid #79c1f5; /* Параметры синей рамки */
+  border-radius: 54% 46% 47% 53% / 24% 55% 45% 76%;
+  outline-offset: -20px; /* Смещение рамки */
+  outline: 3px solid #ebc46e; /* Параметры рамки */
 }
-.content h3 {
+
+main h3 {
+  /* Позиционирование */
   position: absolute;
-  left: 280px;
   top: 200px;
+  left: 300px;
+
+  /* Блочная модель */
   width: 300px;
+  padding: 30px; /* Поля вокруг текста */
+
+  /* Типографика */
+  text-align: center;
+  color: rgb(95, 91, 91);
+
+  /* Оформление */
   border-radius: 24% 55% 45% 76% / 54% 46% 47% 53%;
   background: rgb(160, 247, 160); /* Цвет фона */
-  padding: 30px; /* Поля вокруг текста */
   border: 3px solid #79c1f5; /* Параметры синей рамки */
   outline: 3px solid #ebc46e; /* Параметры рамки */
   outline-offset: -20px; /* Смещение рамки */
-  text-align: center;
-  clear: both; /*чтоб убрать наложение на вышерасположенный блок*/
-  color: rgb(95, 91, 91);
 }
 
 table {
-  width: 480px; /* Ширина таблицы */
+  /* Позиционирование */
   position: absolute;
-  left: 260px;
+  left: 300px;
   top: 340px;
+
+  /* Блочная модель */
+  width: 480px; /* Ширина таблицы */
+  margin: auto; /* Выравниваем по центру */
+
+  /* Оформление */
   border-collapse: collapse;
   background: #b6dec2; /* Цвет фона таблицы */
-  margin: auto; /* Выравниваем по центру */
 }
+
 th,
 td {
-  border: 2px solid rgb(255, 255, 255); /* Параметры рамки */
   padding: 7px; /* Поля в ячейках */
+
+  border: 2px solid rgb(255, 255, 255); /* Параметры рамки */
 }
 
 .skillsexperience {
   padding: 2px; /* Поля вокруг текста */
-  background: #008eb0; /* Цвет фона */
+
   color: #fff; /* Цвет текста */
+
+  background: #008eb0; /* Цвет фона */
 }
 
 .study {
+  /* Позиционирование */
   position: absolute;
   left: 30px;
   top: 500px;
+
+  /* Блочная модель */
   width: 300px;
+  padding: 30px; /* Поля вокруг текста */
+
+  /* Типографика */
+  text-align: center;
+  color: rgb(95, 91, 91);
+
+  /* Оформление */
   border-radius: 24% 55% 45% 76% / 54% 46% 47% 53%;
   background: rgb(160, 247, 160); /* Цвет фона */
-  padding: 30px; /* Поля вокруг текста */
   border: 3px solid #79c1f5; /* Параметры синей рамки */
   outline: 3px solid #ebc46e; /* Параметры рамки */
   outline-offset: -20px; /* Смещение рамки */
-  text-align: center;
-  clear: both; /*чтоб убрать наложение на вышерасположенный блок*/
-  color: rgb(95, 91, 91);
 }
-.Basics {
+
+.basics {
+  /* Позиционирование */
   position: absolute;
-  left: 430px;
   top: 500px;
+  left: 430px;
+
+  /* Блочная модель */
   width: 400px;
-  border-radius: 54% 46% 47% 53% / 24% 55% 45% 76%;
-  background: rgb(255, 199, 44); /* Цвет фона */
   padding: 30px; /* Поля вокруг текста */
-  border: 3px solid #f57979; /* Параметры рамки */
+
+  /* Типографика */
   text-align: center;
+
+  /* Оформление */
+  background: rgb(255, 199, 44); /* Цвет фона */
+  border: 3px solid #f57979; /* Параметры рамки */
+  border-radius: 54% 46% 47% 53% / 24% 55% 45% 76%;
 }
 
 .masters > a {
@@ -136,43 +198,60 @@ td {
 .block {
   border: 1px solid #ddd;
 }
+
 .block h3 {
-  background: #e4ce8f;
-  color: #444;
+  /* Блочная модель */
+  margin: 0;
+  padding: 10px;
+
+  /* Типографика */
+  font-size: 16px;
   text-align: center;
   text-transform: uppercase;
-  padding: 10px;
-  margin: 0;
-  font-size: 16px;
+  color: #444;
+
+  /* Оформление */
+  background: #e4ce8f;
 }
-.block-content ul {
+
+nav ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-.block-content li {
+
+nav li {
   border-top: 1px solid #ddd;
 }
-.block-content li:first-child {
+
+nav li:first-child {
   border-top: none;
 }
-.block-content a {
-  color: #444;
-  text-decoration: none;
+
+nav a {
   display: block;
   padding: 5px 10px;
+
+  text-decoration: none;
+  color: #444;
 }
-.block-content a:hover {
-  background: #bc8e5c;
+
+nav a:hover {
   color: #fff;
+
+  background: #bc8e5c;
 }
+
 .github {
   color: rgb(80, 80, 80);
 }
+
 footer {
-  background: #e6e6e6;
   color: #008eb0;
+
+  background: #e6e6e6;
 }
+
 .github_link > a {
   text-decoration: none;
   color: #ff0000;
